@@ -506,10 +506,7 @@ more complex pages and verity that the implementation is correct.
 ### Testing
 80% of your score on this lab is based on correctness. Correctness is
 demonstrated by passing all of the provided unit in the HS package related to
-the page. We also will have additional tests that will not be provided but
-evaluate requirements from this document. 
-Majority of the points will come from
-the provided tests. To run the provided tests use `cargo test -p heapstore
+the page. There will be 20 tests in total. To run the provided tests use `cargo test -p heapstore
 hs_page` and ensure all the tests pass.
 
 ### Quality
