@@ -30,6 +30,12 @@ impl Page {
     /// HINT: To convert a variable x to bytes using little endian, use
     /// x.to_le_bytes()
     pub fn new(page_id: PageId) -> Self {
+        // initalize the page
+        // let new_page = Page {
+        //     data: [0; PAGE_SIZE],
+        // }; }
+        // new_page.data[0..8].copy_from_slice(&page_id.to_le_bytes());
+        
         todo!("Your code here")
     }
 
@@ -39,6 +45,8 @@ impl Page {
     /// (the example is for a u16 type and the data store in little endian)
     /// u16::from_le_bytes(data[X..Y].try_into().unwrap());
     pub fn get_page_id(&self) -> PageId {
+        // need to grab the page id 
+        // let page_id = PageId::from_le_bytes(self.data[0..8].try_into().unwrap());
         todo!("Your code here")
     }
 
